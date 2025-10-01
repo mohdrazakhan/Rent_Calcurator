@@ -115,7 +115,7 @@ PRs welcome! Please:
 4. Open PR with clear description
 
 ## 📄 License
-MIT License – feel free to use and adapt. Add a `LICENSE` file if distributing.
+MIT License – feel free to use and adapt.
 
 ## 🙏 Acknowledgements
 - Flutter & Dart teams
