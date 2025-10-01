@@ -1,0 +1,30 @@
+lib/
+├─ main.dart
+├─ src/
+│  ├─ models/
+│  │  ├─ reading.dart               // MeterReading model
+│  │  └─ bill_result.dart           // ComputedBill model
+│  ├─ services/
+│  │  ├─ calc_service.dart          // Core calculation logic (pure functions)
+│  │  └─ storage_service.dart       // SharedPreferences or Hive wrapper
+│  ├─ providers/
+│  │  └─ bill_provider.dart         // State management (Provider / Riverpod)
+│  ├─ screens/
+│  │  ├─ home_screen.dart           // Input screen
+│  │  ├─ result_screen.dart         // Results & summary
+│  │  ├─ history_screen.dart        // Saved bills
+│  │  └─ settings_screen.dart
+│  ├─ widgets/
+│  │  ├─ animated_card.dart
+│  │  ├─ input_row.dart
+│  │  ├─ result_tile.dart
+│  │  └─ fancy_button.dart
+│  ├─ theme/
+│  │  ├─ app_theme.dart
+│  │  └─ fonts.dart
+│  └─ utils/
+│     └─ formatters.dart
+└─ assets/
+   ├─ images/
+   ├─ lottie/
+   └─ icons/
